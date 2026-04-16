@@ -7,7 +7,7 @@ app = Flask(__name__,static_folder='public',static_url_path='/p1')
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Sasi@123",
+    password="Password",
     database="restaurant_db"
 )
 
